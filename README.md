@@ -11,7 +11,10 @@ For more detailed information on the methodology and results, please refer to ou
 2. https://doi.org/10.1101/2023.11.23.23298977
 
 ## 1. Sequecing data preprocessing and genotype imputaion
-### 1.1. Alignment
+### 1.1. Alignmen  
+> [!NOTE]
+> 
+
 code：workflow_bwa.sh
 ```bash
 ### static path for tools and reference on local disk.
