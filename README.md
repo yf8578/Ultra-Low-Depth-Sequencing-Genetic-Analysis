@@ -13,7 +13,11 @@ For more detailed information on the methodology and results, please refer to ou
 ## 1. Sequecing data preprocessing and genotype imputaion
 ### 1.1. Alignmen  
 > [!NOTE]
-> 
+> 统计的时候注意区分测序深度和覆盖度。  
+> 测序深度计算公式: 
+> 测序深度 = (测序读长 × 测序reads数) / 基因组大小（3095693981），我比较倾向于使用比对上的碱基数/基因组（3095693981），结果通常表示为"X"(例如30X表示基因组中每个位置平均被测序30次)。
+> 覆盖度计算公式：至少测序一次的碱基数/基因组大小（3095693981），结果通常表示为百分比(例如30%表示基因组中30%的位置至少被测序一次)。  
+> 可用的工具有samtools和qualimap等
 
 code：workflow_bwa.sh
 ```bash

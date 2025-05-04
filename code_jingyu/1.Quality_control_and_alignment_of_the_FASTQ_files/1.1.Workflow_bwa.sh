@@ -13,7 +13,7 @@ hg38=/path_to/Required_reference_data/hg38/hg38.fa.masked.gz
 gatk_bundle_dir=/path_to/Required_reference_data/gatk-bundle
 
 #Check the sequencing platform
-platform=ILLUMINA
+platform=ILLUMINA  # zxxy的不是illumina
 
 #where to perform the analysis, the folder's absolute path
 out_path=/path_to/1.Quality_control_and_alignment_of_the_FASTQ_files
